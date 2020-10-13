@@ -88,3 +88,14 @@ ROBOTSTXT_OBEY = False
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+DEFAULT_REQUEST_HEADERS = {
+  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "Accept-Encoding": "gzip, deflate, br",
+  "Accept-Language": "zh-CN,zh;q=0.9",
+  # "Cookie": "_ga=GA1.2.1572809359.1602556423; _gid=GA1.2.493638366.1602556423; gr_user_id=f94116a3-0a11-47ea-bc5d-42da2630a594; Hm_lvt_a68dc87e09b2a989eec1a0669bfd59eb=1602556423; Hm_lvt_b786b3a5dbac7560eb5f7de55097bd3b=1602556423; Hm_lpvt_b786b3a5dbac7560eb5f7de55097bd3b=1602581002; Hm_lpvt_a68dc87e09b2a989eec1a0669bfd59eb=1602581002",
+  "Host": "www.dy2018.com",
+  "Referer": "https://www.dy2018.com/",
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+}
+FEED_EXPORT_ENCODING = 'GBK'
